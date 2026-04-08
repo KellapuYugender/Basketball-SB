@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "DS-DIGIB";
+  src: url("ds_digital/DS-DIGIB.TTF");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-image: url("bbimg.jpg");
+  background-size: cover;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 600px;
+  border: 8px double white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px 5px black;
+  font-size: 38px;
+  color: white;
+  font-family: "DS-DIGIB";
+  text-shadow: 5px 5px 1px black;
+}
+
+.sub-div {
+  text-align: center;
+}
+
+.score-div {
+  color: red;
+  font-size: 100px;
+}
+
+.btn-class {
+  padding: 10px;
+  border: 3px solid white;
+  background: none;
+  border-radius: 8px;
+  font-family: "Orbitron";
+  font-size: 30px;
+  text-shadow: 3px 3px 1px darkblue;
+  box-shadow: 3px 3px 6px 3px black;
+  color: white;
+}
+
+.btn-reset {
+  margin-top: 20px;
+  border: 8px double white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px 5px black;
+  background: none;
+  width: 600px;
+  height: 90px;
+  font-family: "DS-DIGIB";
+  font-size: 70px;
+  color: rgb(12, 12, 196);
+  text-shadow: 5px 5px 1px black;
+}

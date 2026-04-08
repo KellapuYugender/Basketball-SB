@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>BB Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="sub-div">
+        <h1>Home</h1>
+        <h1 class="score-div" id="homeScr">0</h1>
+        <button class="btn-class" onclick="increment_1('home1')">+1</button>
+        <button class="btn-class" onclick="increment_2('home2')">+2</button>
+        <button class="btn-class" onclick="increment_3('home3')">+3</button>
+      </div>
+
+      <div class="sub-div">
+        <h1>Guest</h1>
+        <h1 class="score-div" id="guestScr">0</h1>
+        <button class="btn-class" onclick="increment_1('guest1')">+1</button>
+        <button class="btn-class" onclick="increment_2('guest2')">+2</button>
+        <button class="btn-class" onclick="increment_3('guest3')">+3</button>
+      </div>
+    </div>
+    <button class="btn-reset" onclick="reset()">Reset</button>
+    <script src="index.js"></script>
+  </body>
+</html>
